@@ -4,6 +4,6 @@ Aplikasi ini dibuat dengan PHP tanpa framework dan menggunakan SQLite sebagai ba
 
 # Hak cipta
 
-Dibuat oleh Sisilia Irna Lakapu (202359201029) 2025 
+"Kode sumber aplikasi ini di buat oleh Sisilia Irna Lakapu pada tahun 2025 untuk megerjakan soal UTS Pemrograman Web 1" 
 
 
