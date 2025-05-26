@@ -10,6 +10,7 @@ $result = $db->query('SELECT * FROM bahan ORDER BY jenis, nama');
 <html>
 <head>
     <title>Jamuku - Racik Jamu Sesukamu</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Jamuku</h1>

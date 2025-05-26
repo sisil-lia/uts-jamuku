@@ -78,6 +78,7 @@ if (!empty($_SESSION['cart'])) {
 <html>
 <head>
     <title>Keranjang Belanja - Jamuku</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Keranjang Belanja</h1>
@@ -123,3 +124,4 @@ if (!empty($_SESSION['cart'])) {
     <?php endif; ?>
 </body>
 </html>
+
