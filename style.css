@@ -1,0 +1,121 @@
+/* ===== Umum ===== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fefae0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #606c38;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #283618;
+    text-align: center;
+    margin-top: 0;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+}
+
+a {
+    color: #bc6c25;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #8b4a0a;
+}
+
+/* ===== Form Container ===== */
+form {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== Tabel ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table thead {
+    background-color: #dda15e;
+    color: #fff;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #fefae0;
+}
+
+table tbody tr:hover {
+    background-color: #faedcd;
+}
+
+/* ===== Input ===== */
+label {
+    font-weight: bold;
+}
+
+input[type="number"] {
+    padding: 5px;
+    width: 80px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* ===== Tombol Umum ===== */
+button {
+    background-color: #bc6c25;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #8b4a0a;
+}
+
+/* ===== Cart Spesifik ===== */
+h3 {
+    text-align: right;
+    color: #283618;
+    margin-top: 20px;
+}
+
+form button[name="bayar"] {
+    background-color: #606c38;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+form button[name="bayar"]:hover {
+    background-color: #283618;
+}
+
